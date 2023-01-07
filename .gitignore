@@ -4,7 +4,6 @@
 *.pyc
 __pycache__
 db.sqlite3
-media
 
 # Backup files #
 *.bak
@@ -110,3 +109,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# migrations
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+**/**/migrations
